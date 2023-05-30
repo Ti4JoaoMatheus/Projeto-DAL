@@ -41,6 +41,7 @@
             idadeToolStripMenuItem = new ToolStripMenuItem();
             conversores2ToolStripMenuItem = new ToolStripMenuItem();
             parEImparToolStripMenuItem = new ToolStripMenuItem();
+            qualOMaiorToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -107,7 +108,7 @@
             // 
             // conversores2ToolStripMenuItem
             // 
-            conversores2ToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { parEImparToolStripMenuItem });
+            conversores2ToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { parEImparToolStripMenuItem, qualOMaiorToolStripMenuItem });
             conversores2ToolStripMenuItem.Name = "conversores2ToolStripMenuItem";
             conversores2ToolStripMenuItem.Size = new Size(93, 20);
             conversores2ToolStripMenuItem.Text = "Conversores 2";
@@ -118,6 +119,13 @@
             parEImparToolStripMenuItem.Size = new Size(180, 22);
             parEImparToolStripMenuItem.Text = "Par e Impar";
             parEImparToolStripMenuItem.Click += parEImparToolStripMenuItem_Click;
+            // 
+            // qualOMaiorToolStripMenuItem
+            // 
+            qualOMaiorToolStripMenuItem.Name = "qualOMaiorToolStripMenuItem";
+            qualOMaiorToolStripMenuItem.Size = new Size(180, 22);
+            qualOMaiorToolStripMenuItem.Text = "Qual o maior";
+            qualOMaiorToolStripMenuItem.Click += qualOMaiorToolStripMenuItem_Click;
             // 
             // Home
             // 
@@ -150,6 +158,7 @@
         private ToolStripMenuItem idadeToolStripMenuItem;
         private ToolStripMenuItem conversores2ToolStripMenuItem;
         private ToolStripMenuItem parEImparToolStripMenuItem;
+        private ToolStripMenuItem qualOMaiorToolStripMenuItem;
     }
 }
 

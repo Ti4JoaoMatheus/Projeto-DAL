@@ -94,5 +94,12 @@ namespace Projeto_DAL
             pareimpar.MdiParent = this;
             pareimpar.Show();
         }
+
+        private void qualOMaiorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var maior = new maiorPeloMenor();
+            maior.MdiParent = this;
+            maior.Show();   
+        }
     }
 }
