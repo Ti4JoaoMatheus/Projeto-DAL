@@ -78,7 +78,14 @@ namespace Projeto_DAL
         {
             var divide = new NumeroInteiro();
             divide.MdiParent = this;
-            divide.Show();  
+            divide.Show();
+        }
+
+        private void idadeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var idade = new Idade();
+            idade.MdiParent = this;
+            idade.Show();
         }
     }
 }

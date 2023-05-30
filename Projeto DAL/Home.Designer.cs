@@ -38,6 +38,7 @@
             numerosParesToolStripMenuItem = new ToolStripMenuItem();
             temperaturaToolStripMenuItem = new ToolStripMenuItem();
             dividePor3ToolStripMenuItem = new ToolStripMenuItem();
+            idadeToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -62,7 +63,7 @@
             // 
             // contadoresToolStripMenuItem
             // 
-            contadoresToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { segundosCalculadosToolStripMenuItem, numerosParesToolStripMenuItem, temperaturaToolStripMenuItem, dividePor3ToolStripMenuItem });
+            contadoresToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { segundosCalculadosToolStripMenuItem, numerosParesToolStripMenuItem, temperaturaToolStripMenuItem, dividePor3ToolStripMenuItem, idadeToolStripMenuItem });
             contadoresToolStripMenuItem.Name = "contadoresToolStripMenuItem";
             contadoresToolStripMenuItem.Size = new Size(80, 20);
             contadoresToolStripMenuItem.Text = "Contadores";
@@ -95,6 +96,13 @@
             dividePor3ToolStripMenuItem.Text = "Divide por 3";
             dividePor3ToolStripMenuItem.Click += dividePor3ToolStripMenuItem_Click;
             // 
+            // idadeToolStripMenuItem
+            // 
+            idadeToolStripMenuItem.Name = "idadeToolStripMenuItem";
+            idadeToolStripMenuItem.Size = new Size(185, 22);
+            idadeToolStripMenuItem.Text = "Idade";
+            idadeToolStripMenuItem.Click += idadeToolStripMenuItem_Click;
+            // 
             // Home
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -123,6 +131,7 @@
         private ToolStripMenuItem numerosParesToolStripMenuItem;
         private ToolStripMenuItem temperaturaToolStripMenuItem;
         private ToolStripMenuItem dividePor3ToolStripMenuItem;
+        private ToolStripMenuItem idadeToolStripMenuItem;
     }
 }
 
