@@ -36,6 +36,7 @@
             contadoresToolStripMenuItem = new ToolStripMenuItem();
             segundosCalculadosToolStripMenuItem = new ToolStripMenuItem();
             numerosParesToolStripMenuItem = new ToolStripMenuItem();
+            temperaturaToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -60,7 +61,7 @@
             // 
             // contadoresToolStripMenuItem
             // 
-            contadoresToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { segundosCalculadosToolStripMenuItem, numerosParesToolStripMenuItem });
+            contadoresToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { segundosCalculadosToolStripMenuItem, numerosParesToolStripMenuItem, temperaturaToolStripMenuItem });
             contadoresToolStripMenuItem.Name = "contadoresToolStripMenuItem";
             contadoresToolStripMenuItem.Size = new Size(80, 20);
             contadoresToolStripMenuItem.Text = "Contadores";
@@ -78,6 +79,13 @@
             numerosParesToolStripMenuItem.Size = new Size(185, 22);
             numerosParesToolStripMenuItem.Text = "Numeros Pares";
             numerosParesToolStripMenuItem.Click += numerosParesToolStripMenuItem_Click;
+            // 
+            // temperaturaToolStripMenuItem
+            // 
+            temperaturaToolStripMenuItem.Name = "temperaturaToolStripMenuItem";
+            temperaturaToolStripMenuItem.Size = new Size(185, 22);
+            temperaturaToolStripMenuItem.Text = "Temperatura";
+            temperaturaToolStripMenuItem.Click += temperaturaToolStripMenuItem_Click;
             // 
             // Home
             // 
@@ -105,6 +113,7 @@
         private ToolStripMenuItem contadoresToolStripMenuItem;
         private ToolStripMenuItem segundosCalculadosToolStripMenuItem;
         private ToolStripMenuItem numerosParesToolStripMenuItem;
+        private ToolStripMenuItem temperaturaToolStripMenuItem;
     }
 }
 

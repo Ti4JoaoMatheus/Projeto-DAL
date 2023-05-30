@@ -64,7 +64,14 @@ namespace Projeto_DAL
         {
             var numerosPares = new NumerosPares();
             numerosPares.MdiParent = this;
-            numerosPares.Show();    
+            numerosPares.Show();
+        }
+
+        private void temperaturaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var temperatura = new Temperatura();
+            temperatura.MdiParent = this;
+            temperatura.Show();
         }
     }
 }
