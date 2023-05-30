@@ -39,6 +39,8 @@
             temperaturaToolStripMenuItem = new ToolStripMenuItem();
             dividePor3ToolStripMenuItem = new ToolStripMenuItem();
             idadeToolStripMenuItem = new ToolStripMenuItem();
+            conversores2ToolStripMenuItem = new ToolStripMenuItem();
+            parEImparToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -54,7 +56,7 @@
             // 
             // menuStrip1
             // 
-            menuStrip1.Items.AddRange(new ToolStripItem[] { contadoresToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { contadoresToolStripMenuItem, conversores2ToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(737, 24);
@@ -103,6 +105,20 @@
             idadeToolStripMenuItem.Text = "Idade";
             idadeToolStripMenuItem.Click += idadeToolStripMenuItem_Click;
             // 
+            // conversores2ToolStripMenuItem
+            // 
+            conversores2ToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { parEImparToolStripMenuItem });
+            conversores2ToolStripMenuItem.Name = "conversores2ToolStripMenuItem";
+            conversores2ToolStripMenuItem.Size = new Size(93, 20);
+            conversores2ToolStripMenuItem.Text = "Conversores 2";
+            // 
+            // parEImparToolStripMenuItem
+            // 
+            parEImparToolStripMenuItem.Name = "parEImparToolStripMenuItem";
+            parEImparToolStripMenuItem.Size = new Size(180, 22);
+            parEImparToolStripMenuItem.Text = "Par e Impar";
+            parEImparToolStripMenuItem.Click += parEImparToolStripMenuItem_Click;
+            // 
             // Home
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -132,6 +148,8 @@
         private ToolStripMenuItem temperaturaToolStripMenuItem;
         private ToolStripMenuItem dividePor3ToolStripMenuItem;
         private ToolStripMenuItem idadeToolStripMenuItem;
+        private ToolStripMenuItem conversores2ToolStripMenuItem;
+        private ToolStripMenuItem parEImparToolStripMenuItem;
     }
 }
 

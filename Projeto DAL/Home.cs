@@ -87,5 +87,12 @@ namespace Projeto_DAL
             idade.MdiParent = this;
             idade.Show();
         }
+
+        private void parEImparToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var pareimpar = new parEImpar();
+            pareimpar.MdiParent = this;
+            pareimpar.Show();
+        }
     }
 }
