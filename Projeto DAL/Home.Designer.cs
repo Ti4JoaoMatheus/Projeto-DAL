@@ -37,6 +37,7 @@
             segundosCalculadosToolStripMenuItem = new ToolStripMenuItem();
             numerosParesToolStripMenuItem = new ToolStripMenuItem();
             temperaturaToolStripMenuItem = new ToolStripMenuItem();
+            dividePor3ToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -61,7 +62,7 @@
             // 
             // contadoresToolStripMenuItem
             // 
-            contadoresToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { segundosCalculadosToolStripMenuItem, numerosParesToolStripMenuItem, temperaturaToolStripMenuItem });
+            contadoresToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { segundosCalculadosToolStripMenuItem, numerosParesToolStripMenuItem, temperaturaToolStripMenuItem, dividePor3ToolStripMenuItem });
             contadoresToolStripMenuItem.Name = "contadoresToolStripMenuItem";
             contadoresToolStripMenuItem.Size = new Size(80, 20);
             contadoresToolStripMenuItem.Text = "Contadores";
@@ -86,6 +87,13 @@
             temperaturaToolStripMenuItem.Size = new Size(185, 22);
             temperaturaToolStripMenuItem.Text = "Temperatura";
             temperaturaToolStripMenuItem.Click += temperaturaToolStripMenuItem_Click;
+            // 
+            // dividePor3ToolStripMenuItem
+            // 
+            dividePor3ToolStripMenuItem.Name = "dividePor3ToolStripMenuItem";
+            dividePor3ToolStripMenuItem.Size = new Size(185, 22);
+            dividePor3ToolStripMenuItem.Text = "Divide por 3";
+            dividePor3ToolStripMenuItem.Click += dividePor3ToolStripMenuItem_Click;
             // 
             // Home
             // 
@@ -114,6 +122,7 @@
         private ToolStripMenuItem segundosCalculadosToolStripMenuItem;
         private ToolStripMenuItem numerosParesToolStripMenuItem;
         private ToolStripMenuItem temperaturaToolStripMenuItem;
+        private ToolStripMenuItem dividePor3ToolStripMenuItem;
     }
 }
 

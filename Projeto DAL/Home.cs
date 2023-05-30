@@ -73,5 +73,12 @@ namespace Projeto_DAL
             temperatura.MdiParent = this;
             temperatura.Show();
         }
+
+        private void dividePor3ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var divide = new NumeroInteiro();
+            divide.MdiParent = this;
+            divide.Show();  
+        }
     }
 }
