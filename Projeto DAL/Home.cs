@@ -99,7 +99,14 @@ namespace Projeto_DAL
         {
             var maior = new maiorPeloMenor();
             maior.MdiParent = this;
-            maior.Show();   
+            maior.Show();
+        }
+
+        private void imcToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var imc = new mmc();
+            imc.MdiParent = this;
+            imc.Show(); 
         }
     }
 }

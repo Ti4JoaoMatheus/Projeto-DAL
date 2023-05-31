@@ -42,6 +42,7 @@
             conversores2ToolStripMenuItem = new ToolStripMenuItem();
             parEImparToolStripMenuItem = new ToolStripMenuItem();
             qualOMaiorToolStripMenuItem = new ToolStripMenuItem();
+            imcToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -108,7 +109,7 @@
             // 
             // conversores2ToolStripMenuItem
             // 
-            conversores2ToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { parEImparToolStripMenuItem, qualOMaiorToolStripMenuItem });
+            conversores2ToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { parEImparToolStripMenuItem, qualOMaiorToolStripMenuItem, imcToolStripMenuItem });
             conversores2ToolStripMenuItem.Name = "conversores2ToolStripMenuItem";
             conversores2ToolStripMenuItem.Size = new Size(93, 20);
             conversores2ToolStripMenuItem.Text = "Conversores 2";
@@ -126,6 +127,13 @@
             qualOMaiorToolStripMenuItem.Size = new Size(180, 22);
             qualOMaiorToolStripMenuItem.Text = "Qual o maior";
             qualOMaiorToolStripMenuItem.Click += qualOMaiorToolStripMenuItem_Click;
+            // 
+            // imcToolStripMenuItem
+            // 
+            imcToolStripMenuItem.Name = "imcToolStripMenuItem";
+            imcToolStripMenuItem.Size = new Size(180, 22);
+            imcToolStripMenuItem.Text = "Imc";
+            imcToolStripMenuItem.Click += imcToolStripMenuItem_Click;
             // 
             // Home
             // 
@@ -159,6 +167,7 @@
         private ToolStripMenuItem conversores2ToolStripMenuItem;
         private ToolStripMenuItem parEImparToolStripMenuItem;
         private ToolStripMenuItem qualOMaiorToolStripMenuItem;
+        private ToolStripMenuItem imcToolStripMenuItem;
     }
 }
 
