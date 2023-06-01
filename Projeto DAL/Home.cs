@@ -106,7 +106,14 @@ namespace Projeto_DAL
         {
             var imc = new mmc();
             imc.MdiParent = this;
-            imc.Show(); 
+            imc.Show();
+        }
+
+        private void de0A10ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var dezazero = new deZeroADez();
+            dezazero.MdiParent = this;
+            dezazero.Show();
         }
     }
 }
