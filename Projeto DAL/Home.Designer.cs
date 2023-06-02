@@ -44,6 +44,7 @@
             qualOMaiorToolStripMenuItem = new ToolStripMenuItem();
             imcToolStripMenuItem = new ToolStripMenuItem();
             de0A10ToolStripMenuItem = new ToolStripMenuItem();
+            diferencaToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -110,7 +111,7 @@
             // 
             // conversores2ToolStripMenuItem
             // 
-            conversores2ToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { parEImparToolStripMenuItem, qualOMaiorToolStripMenuItem, imcToolStripMenuItem, de0A10ToolStripMenuItem });
+            conversores2ToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { parEImparToolStripMenuItem, qualOMaiorToolStripMenuItem, imcToolStripMenuItem, de0A10ToolStripMenuItem, diferencaToolStripMenuItem });
             conversores2ToolStripMenuItem.Name = "conversores2ToolStripMenuItem";
             conversores2ToolStripMenuItem.Size = new Size(93, 20);
             conversores2ToolStripMenuItem.Text = "Conversores 2";
@@ -142,6 +143,13 @@
             de0A10ToolStripMenuItem.Size = new Size(180, 22);
             de0A10ToolStripMenuItem.Text = "De 0 a 10";
             de0A10ToolStripMenuItem.Click += de0A10ToolStripMenuItem_Click;
+            // 
+            // diferencaToolStripMenuItem
+            // 
+            diferencaToolStripMenuItem.Name = "diferencaToolStripMenuItem";
+            diferencaToolStripMenuItem.Size = new Size(180, 22);
+            diferencaToolStripMenuItem.Text = "Diferenca";
+            diferencaToolStripMenuItem.Click += diferencaToolStripMenuItem_Click;
             // 
             // Home
             // 
@@ -177,6 +185,7 @@
         private ToolStripMenuItem qualOMaiorToolStripMenuItem;
         private ToolStripMenuItem imcToolStripMenuItem;
         private ToolStripMenuItem de0A10ToolStripMenuItem;
+        private ToolStripMenuItem diferencaToolStripMenuItem;
     }
 }
 

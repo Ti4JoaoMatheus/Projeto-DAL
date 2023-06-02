@@ -115,5 +115,12 @@ namespace Projeto_DAL
             dezazero.MdiParent = this;
             dezazero.Show();
         }
+
+        private void diferencaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var dif = new DiferencaDias();
+            dif.MdiParent = this;   
+            dif.Show(); 
+        }
     }
 }
