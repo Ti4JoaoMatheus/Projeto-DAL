@@ -47,6 +47,7 @@
             diferencaToolStripMenuItem = new ToolStripMenuItem();
             arraysToolStripMenuItem = new ToolStripMenuItem();
             variosNumerosToolStripMenuItem = new ToolStripMenuItem();
+            listaIguaisToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -121,41 +122,41 @@
             // parEImparToolStripMenuItem
             // 
             parEImparToolStripMenuItem.Name = "parEImparToolStripMenuItem";
-            parEImparToolStripMenuItem.Size = new Size(180, 22);
+            parEImparToolStripMenuItem.Size = new Size(143, 22);
             parEImparToolStripMenuItem.Text = "Par e Impar";
             parEImparToolStripMenuItem.Click += parEImparToolStripMenuItem_Click;
             // 
             // qualOMaiorToolStripMenuItem
             // 
             qualOMaiorToolStripMenuItem.Name = "qualOMaiorToolStripMenuItem";
-            qualOMaiorToolStripMenuItem.Size = new Size(180, 22);
+            qualOMaiorToolStripMenuItem.Size = new Size(143, 22);
             qualOMaiorToolStripMenuItem.Text = "Qual o maior";
             qualOMaiorToolStripMenuItem.Click += qualOMaiorToolStripMenuItem_Click;
             // 
             // imcToolStripMenuItem
             // 
             imcToolStripMenuItem.Name = "imcToolStripMenuItem";
-            imcToolStripMenuItem.Size = new Size(180, 22);
+            imcToolStripMenuItem.Size = new Size(143, 22);
             imcToolStripMenuItem.Text = "Imc";
             imcToolStripMenuItem.Click += imcToolStripMenuItem_Click;
             // 
             // de0A10ToolStripMenuItem
             // 
             de0A10ToolStripMenuItem.Name = "de0A10ToolStripMenuItem";
-            de0A10ToolStripMenuItem.Size = new Size(180, 22);
+            de0A10ToolStripMenuItem.Size = new Size(143, 22);
             de0A10ToolStripMenuItem.Text = "De 0 a 10";
             de0A10ToolStripMenuItem.Click += de0A10ToolStripMenuItem_Click;
             // 
             // diferencaToolStripMenuItem
             // 
             diferencaToolStripMenuItem.Name = "diferencaToolStripMenuItem";
-            diferencaToolStripMenuItem.Size = new Size(180, 22);
+            diferencaToolStripMenuItem.Size = new Size(143, 22);
             diferencaToolStripMenuItem.Text = "Diferenca";
             diferencaToolStripMenuItem.Click += diferencaToolStripMenuItem_Click;
             // 
             // arraysToolStripMenuItem
             // 
-            arraysToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { variosNumerosToolStripMenuItem });
+            arraysToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { variosNumerosToolStripMenuItem, listaIguaisToolStripMenuItem });
             arraysToolStripMenuItem.Name = "arraysToolStripMenuItem";
             arraysToolStripMenuItem.Size = new Size(52, 20);
             arraysToolStripMenuItem.Text = "Arrays";
@@ -166,6 +167,13 @@
             variosNumerosToolStripMenuItem.Size = new Size(180, 22);
             variosNumerosToolStripMenuItem.Text = "Varios numeros";
             variosNumerosToolStripMenuItem.Click += variosNumerosToolStripMenuItem_Click;
+            // 
+            // listaIguaisToolStripMenuItem
+            // 
+            listaIguaisToolStripMenuItem.Name = "listaIguaisToolStripMenuItem";
+            listaIguaisToolStripMenuItem.Size = new Size(180, 22);
+            listaIguaisToolStripMenuItem.Text = "2 lista iguais";
+            listaIguaisToolStripMenuItem.Click += listaIguaisToolStripMenuItem_Click;
             // 
             // Home
             // 
@@ -204,6 +212,7 @@
         private ToolStripMenuItem diferencaToolStripMenuItem;
         private ToolStripMenuItem arraysToolStripMenuItem;
         private ToolStripMenuItem variosNumerosToolStripMenuItem;
+        private ToolStripMenuItem listaIguaisToolStripMenuItem;
     }
 }
 

@@ -126,8 +126,15 @@ namespace Projeto_DAL
         private void variosNumerosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var nv = new deZeroACem();
-            nv.MdiParent = this;    
-            nv.Show();    
+            nv.MdiParent = this;
+            nv.Show();
+        }
+
+        private void listaIguaisToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var o = new variosArrays();
+            o.MdiParent = this;
+            o.Show();
         }
     }
 }
