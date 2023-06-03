@@ -45,6 +45,8 @@
             imcToolStripMenuItem = new ToolStripMenuItem();
             de0A10ToolStripMenuItem = new ToolStripMenuItem();
             diferencaToolStripMenuItem = new ToolStripMenuItem();
+            arraysToolStripMenuItem = new ToolStripMenuItem();
+            variosNumerosToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -60,7 +62,7 @@
             // 
             // menuStrip1
             // 
-            menuStrip1.Items.AddRange(new ToolStripItem[] { contadoresToolStripMenuItem, conversores2ToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { contadoresToolStripMenuItem, conversores2ToolStripMenuItem, arraysToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(737, 24);
@@ -151,6 +153,20 @@
             diferencaToolStripMenuItem.Text = "Diferenca";
             diferencaToolStripMenuItem.Click += diferencaToolStripMenuItem_Click;
             // 
+            // arraysToolStripMenuItem
+            // 
+            arraysToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { variosNumerosToolStripMenuItem });
+            arraysToolStripMenuItem.Name = "arraysToolStripMenuItem";
+            arraysToolStripMenuItem.Size = new Size(52, 20);
+            arraysToolStripMenuItem.Text = "Arrays";
+            // 
+            // variosNumerosToolStripMenuItem
+            // 
+            variosNumerosToolStripMenuItem.Name = "variosNumerosToolStripMenuItem";
+            variosNumerosToolStripMenuItem.Size = new Size(180, 22);
+            variosNumerosToolStripMenuItem.Text = "Varios numeros";
+            variosNumerosToolStripMenuItem.Click += variosNumerosToolStripMenuItem_Click;
+            // 
             // Home
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -186,6 +202,8 @@
         private ToolStripMenuItem imcToolStripMenuItem;
         private ToolStripMenuItem de0A10ToolStripMenuItem;
         private ToolStripMenuItem diferencaToolStripMenuItem;
+        private ToolStripMenuItem arraysToolStripMenuItem;
+        private ToolStripMenuItem variosNumerosToolStripMenuItem;
     }
 }
 

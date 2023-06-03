@@ -119,8 +119,15 @@ namespace Projeto_DAL
         private void diferencaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var dif = new DiferencaDias();
-            dif.MdiParent = this;   
-            dif.Show(); 
+            dif.MdiParent = this;
+            dif.Show();
+        }
+
+        private void variosNumerosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var nv = new deZeroACem();
+            nv.MdiParent = this;    
+            nv.Show();    
         }
     }
 }
