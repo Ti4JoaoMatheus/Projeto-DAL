@@ -136,5 +136,12 @@ namespace Projeto_DAL
             o.MdiParent = this;
             o.Show();
         }
+
+        private void contemLetraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var p = new Letra();
+            p.MdiParent = this;
+            p.Show();
+        }
     }
 }

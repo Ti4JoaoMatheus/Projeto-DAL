@@ -48,6 +48,7 @@
             arraysToolStripMenuItem = new ToolStripMenuItem();
             variosNumerosToolStripMenuItem = new ToolStripMenuItem();
             listaIguaisToolStripMenuItem = new ToolStripMenuItem();
+            contemLetraToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -156,7 +157,7 @@
             // 
             // arraysToolStripMenuItem
             // 
-            arraysToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { variosNumerosToolStripMenuItem, listaIguaisToolStripMenuItem });
+            arraysToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { variosNumerosToolStripMenuItem, listaIguaisToolStripMenuItem, contemLetraToolStripMenuItem });
             arraysToolStripMenuItem.Name = "arraysToolStripMenuItem";
             arraysToolStripMenuItem.Size = new Size(52, 20);
             arraysToolStripMenuItem.Text = "Arrays";
@@ -174,6 +175,13 @@
             listaIguaisToolStripMenuItem.Size = new Size(180, 22);
             listaIguaisToolStripMenuItem.Text = "2 lista iguais";
             listaIguaisToolStripMenuItem.Click += listaIguaisToolStripMenuItem_Click;
+            // 
+            // contemLetraToolStripMenuItem
+            // 
+            contemLetraToolStripMenuItem.Name = "contemLetraToolStripMenuItem";
+            contemLetraToolStripMenuItem.Size = new Size(180, 22);
+            contemLetraToolStripMenuItem.Text = "Contem Letra";
+            contemLetraToolStripMenuItem.Click += contemLetraToolStripMenuItem_Click;
             // 
             // Home
             // 
@@ -213,6 +221,7 @@
         private ToolStripMenuItem arraysToolStripMenuItem;
         private ToolStripMenuItem variosNumerosToolStripMenuItem;
         private ToolStripMenuItem listaIguaisToolStripMenuItem;
+        private ToolStripMenuItem contemLetraToolStripMenuItem;
     }
 }
 
