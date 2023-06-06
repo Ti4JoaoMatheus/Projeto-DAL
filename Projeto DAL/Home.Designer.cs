@@ -49,6 +49,9 @@
             variosNumerosToolStripMenuItem = new ToolStripMenuItem();
             listaIguaisToolStripMenuItem = new ToolStripMenuItem();
             contemLetraToolStripMenuItem = new ToolStripMenuItem();
+            anoBiToolStripMenuItem = new ToolStripMenuItem();
+            vetorToolStripMenuItem = new ToolStripMenuItem();
+            numerosToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -64,7 +67,7 @@
             // 
             // menuStrip1
             // 
-            menuStrip1.Items.AddRange(new ToolStripItem[] { contadoresToolStripMenuItem, conversores2ToolStripMenuItem, arraysToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { contadoresToolStripMenuItem, conversores2ToolStripMenuItem, arraysToolStripMenuItem, vetorToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(737, 24);
@@ -157,7 +160,7 @@
             // 
             // arraysToolStripMenuItem
             // 
-            arraysToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { variosNumerosToolStripMenuItem, listaIguaisToolStripMenuItem, contemLetraToolStripMenuItem });
+            arraysToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { variosNumerosToolStripMenuItem, listaIguaisToolStripMenuItem, contemLetraToolStripMenuItem, anoBiToolStripMenuItem });
             arraysToolStripMenuItem.Name = "arraysToolStripMenuItem";
             arraysToolStripMenuItem.Size = new Size(52, 20);
             arraysToolStripMenuItem.Text = "Arrays";
@@ -165,23 +168,44 @@
             // variosNumerosToolStripMenuItem
             // 
             variosNumerosToolStripMenuItem.Name = "variosNumerosToolStripMenuItem";
-            variosNumerosToolStripMenuItem.Size = new Size(180, 22);
+            variosNumerosToolStripMenuItem.Size = new Size(155, 22);
             variosNumerosToolStripMenuItem.Text = "Varios numeros";
             variosNumerosToolStripMenuItem.Click += variosNumerosToolStripMenuItem_Click;
             // 
             // listaIguaisToolStripMenuItem
             // 
             listaIguaisToolStripMenuItem.Name = "listaIguaisToolStripMenuItem";
-            listaIguaisToolStripMenuItem.Size = new Size(180, 22);
+            listaIguaisToolStripMenuItem.Size = new Size(155, 22);
             listaIguaisToolStripMenuItem.Text = "2 lista iguais";
             listaIguaisToolStripMenuItem.Click += listaIguaisToolStripMenuItem_Click;
             // 
             // contemLetraToolStripMenuItem
             // 
             contemLetraToolStripMenuItem.Name = "contemLetraToolStripMenuItem";
-            contemLetraToolStripMenuItem.Size = new Size(180, 22);
+            contemLetraToolStripMenuItem.Size = new Size(155, 22);
             contemLetraToolStripMenuItem.Text = "Contem Letra";
             contemLetraToolStripMenuItem.Click += contemLetraToolStripMenuItem_Click;
+            // 
+            // anoBiToolStripMenuItem
+            // 
+            anoBiToolStripMenuItem.Name = "anoBiToolStripMenuItem";
+            anoBiToolStripMenuItem.Size = new Size(155, 22);
+            anoBiToolStripMenuItem.Text = "Ano bi";
+            anoBiToolStripMenuItem.Click += anoBiToolStripMenuItem_Click;
+            // 
+            // vetorToolStripMenuItem
+            // 
+            vetorToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { numerosToolStripMenuItem });
+            vetorToolStripMenuItem.Name = "vetorToolStripMenuItem";
+            vetorToolStripMenuItem.Size = new Size(46, 20);
+            vetorToolStripMenuItem.Text = "vetor";
+            // 
+            // numerosToolStripMenuItem
+            // 
+            numerosToolStripMenuItem.Name = "numerosToolStripMenuItem";
+            numerosToolStripMenuItem.Size = new Size(180, 22);
+            numerosToolStripMenuItem.Text = "8 numeros";
+            numerosToolStripMenuItem.Click += numerosToolStripMenuItem_Click;
             // 
             // Home
             // 
@@ -222,6 +246,9 @@
         private ToolStripMenuItem variosNumerosToolStripMenuItem;
         private ToolStripMenuItem listaIguaisToolStripMenuItem;
         private ToolStripMenuItem contemLetraToolStripMenuItem;
+        private ToolStripMenuItem anoBiToolStripMenuItem;
+        private ToolStripMenuItem vetorToolStripMenuItem;
+        private ToolStripMenuItem numerosToolStripMenuItem;
     }
 }
 

@@ -143,5 +143,19 @@ namespace Projeto_DAL
             p.MdiParent = this;
             p.Show();
         }
+
+        private void anoBiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var l = new anoBi();
+            l.MdiParent = this;
+            l.Show();
+        }
+
+        private void numerosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var o = new vetor();
+            o.MdiParent = this;
+            o.Show();
+        }
     }
 }
